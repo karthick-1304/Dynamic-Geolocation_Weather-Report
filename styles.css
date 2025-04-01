@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #4facfe, #fe5900);
+    color: white;
+    text-align: center;
+    
+}
+
+header {
+    margin-top: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    
+}
+header>h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+    color:aqua
+}
+::placeholder {
+   
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#search {
+    padding: 10px;
+    width: 400px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom:50px;
+}
+
+
+
+#search-btn {
+    padding: 10px 15px;
+    border: none;
+    background: #ff9800;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+    width: 100px;
+    height: 50px;
+}
+
+#search-btn:hover {
+    background: #e68900;
+}
+
+#map-container {
+    width: 100%;
+    max-width: 1500px;
+    height: 700px;
+    border-radius: 15px;
+    margin-left:400px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    
+}
+
+#weather-info {
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left:400px;
+    padding-right: 200px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 20px; /* Increased padding */
+    font-size: 2rem; /* Larger text size */
+    width: 66%; /* Adjust width for better spacing */
+}
+
+
+#unit-toggle {
+    margin-top: 10px;
+    padding: 10px;
+    background: #ff5722;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+}
+
+#unit-toggle:hover {
+    background: #d84315;
+}
+
+p {
+    margin: 5px 0;
+}
